@@ -41,6 +41,6 @@ Of couse, you can also add it in ~/.vim/my_configs.vim or just add it in .vimrc
 
 If you want to create files with title automatically set on it,
 
-   such as in C++ file, adding #indlude<iostream>...
+   such as: in C++ file, adding #indlude\<iostream\>...
 
-you can add tax into [append/title](append/title)
+you can add tax into [vimrcs/append/title](vimrcs/append/title)
