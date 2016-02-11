@@ -41,6 +41,8 @@ set shiftwidth=4
 " 折疊
 set foldmethod=syntax
 set foldmethod=indent
+" disable auto comment
+setlocal formatoptions-=c formatoptions-=r formatoptions-=o
 
 " 套件
 " To auto run .vim/bundle
@@ -54,20 +56,4 @@ set mouse=nv
 
 abbreviate fs w !sudo tee %
 abbreviate nt setl noai nocin nosi inde=
-
-"  外部
-" 快捷鍵
-source ~/.vim/append/key
-" 顯示
-source ~/.vim/append/display
-" 標題
-source ~/.vim/append/tital
-" 實用
-source ~/.vim/append/useful
-" Ctags
-source ~/.vim/append/ctags
-" 其他
-source ~/.vim/append/other
-" all in one
-"source ~/.vim/append/.vimrc
 
