@@ -30,3 +30,9 @@ chmod 755 ~/.vim/install_vimrc.sh
 sudo ~/.vim/install_vimrc.sh
 ```
 That's it!
+
+#### Add your own rc
+
+If you want to add your own rc script, I recommend to add it in ~/.vim/vimrcs/vimrc.me
+
+Of couse, you can also add it in ~/.vim/my_configs.vim or just add it in .vimrc
