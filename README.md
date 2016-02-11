@@ -33,9 +33,9 @@ That's it!
 
 ## Add your own rc script
 
-If you want to add your own rc script, I recommend to add it in ~/.vim/vimrcs/vimrc.me
+If you want to add your own rc script, I recommend to add it in [~/.vim/vimrcs/my.vimrc](vimrcs/my.vimrc)
 
-Of couse, you can also add it in ~/.vim/my_configs.vim or just add it in .vimrc
+Of couse, you can also add it in [~/.vim/my_configs.vim](my_configs.vim) or just add it in ~/.vimrc
 
 ## Auto title
 
@@ -43,4 +43,4 @@ If you want to create files with title automatically set on it,
 
    such as: in C++ file, adding #indlude\<iostream\>...
 
-you can add tax into [vimrcs/append/title](vimrcs/append/title)
+you can add tax into [vimrcs/append/tital](vimrcs/append/tital)
