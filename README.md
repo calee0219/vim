@@ -4,7 +4,7 @@ This is [Gavin Lee's](https://github.com/calee0219) vimrc settlement.
 
 Basically, I just used [amix's vimrc](https://github.com/amix/vimrc).
 
-I also add some [appending tool](append) to improve it
+I also add some [appending tool](vimrcs/append) to improve it
 
 ## How to install
 * First, type the command below in your termainal or cmd
