@@ -4,6 +4,8 @@ This is [Gavin Lee's](https://github.com/calee0219) vimrc settlement.
 
 Basically, I just used [amix's vimrc](https://github.com/amix/vimrc).
 
+I have also copy the rc script from [vgod's vimrc](https://github.com/mattn/emmet-vim).
+
 I also add some [appending tool](vimrcs/append) to improve it
 
 ## How to install
