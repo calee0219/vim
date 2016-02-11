@@ -15,11 +15,7 @@ cd ~/.vim
 
 * (On Linux) If you don't have python and pip or you're not sure what's this, type:
 ```shell
-sudo apt-get install python python-pip
-```
-or
-```shell
-sudo yum install python python-pip
+sudo preinstall.sh
 ```
 
 * (On Windows) Just go [here](https://www.python.org/) to download and install python.
