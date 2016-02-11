@@ -2,6 +2,13 @@
 
 cd ~/.vim
 
+# update  plugins
+pip install zipfile
+pip install shutil
+pip install tempfile
+pip install requests
+python update_plugins.py
+
 echo 'set runtimepath+=~/.vim
 
 source ~/.vim/vimrcs/basic.vim
