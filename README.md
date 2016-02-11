@@ -17,8 +17,12 @@ cd ~/.vim
 ```shell
 sudo apt-get install python python-pip
 ```
+or
+```shell
+sudo yum install python python-pip
+```
 
-* (On Windows) Just go to [here](https://www.python.org/) to download and install python.
+* (On Windows) Just go [here](https://www.python.org/) to download and install python.
 
 * Last, type:
 ```shell
