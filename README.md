@@ -1,5 +1,5 @@
 # Gavin Lee's vimrc settalment
 
-This is Gavin Lee's vimrc settalment
-Basically, I just used [https://github.com/vgod/vimrc](vgod's vimrc)
-I also add some [append](appending tool) to improve it
+This is [Gavin Lee's](https://github.com/calee0219) vimrc settalment
+Basically, I just used [vgod's vimrc](https://github.com/vgod/vimrc)
+I also add some [appending tool](append) to improve it
