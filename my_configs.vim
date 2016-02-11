@@ -1,6 +1,6 @@
 " .vim_runtime/my_configs.vim
 
-source ~/.vim/vimrcs/my.vimrc
+"source ~/.vim/vimrcs/my.vimrc
 
 "  外部
 " 快捷鍵

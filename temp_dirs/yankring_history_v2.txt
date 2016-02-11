@@ -1,3 +1,4 @@
+    int i,V
   cout << s;,V
 inside(vertex[1], vertex[2], vertex[3], p),v
 bool same_slop(point a, point b, point c),V
@@ -97,4 +98,3 @@ int inside(int x, int y);,V
 # with '#' will be ignored, and an empty message aborts the commit.,V
             cout << g[i] << ' ';,V
         for(int i = 1; i <= n; ++i),V
-            a[g[b]] += a[c];,V

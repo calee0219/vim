@@ -60,6 +60,9 @@ setlocal formatoptions-=c formatoptions-=r formatoptions-=o
 " 在 fish 裡相容 Vim 裡的 Neobundle。
 set shell=/bin/bash
 
+"為方便複製，用<F4>開啟/關閉行號顯示:
+nnoremap <F4> :set nonumber!<CR>
+
 " 套件
 " To auto run .vim/bundle
 call pathogen#infect()
