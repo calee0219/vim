@@ -1,6 +1,6 @@
-# Gavin Lee's vimrc settalment
+# Gavin Lee's vimrc settlement
 
-This is [Gavin Lee's](https://github.com/calee0219) vimrc settalment.
+This is [Gavin Lee's](https://github.com/calee0219) vimrc settlement.
 
 Basically, I just used [amix's vimrc](https://github.com/amix/vimrc).
 
