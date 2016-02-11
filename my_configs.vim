@@ -1,6 +1,6 @@
 " .vim_runtime/my_configs.vim
 
-"source ~/.vim/vimrcs/my.vimrc
+source ~/.vim/vimrcs/my.vimrc
 
 "  外部
 " 快捷鍵
@@ -20,3 +20,4 @@ source ~/.vim/vimrcs/append/other
 
 source ~/.vim/vimrcs/lalan_lab.vimrc
 source ~/.vim/vimrcs/kenming.vimrc
+source ~/.vim/vimrc/vgod.vimrc
