@@ -16,7 +16,7 @@ set cursorcolumn
 " 顯示右下角詳細資訊
 set ruler
 " 顯示相對行號。
-set relativenumber
+"set relativenumber
 " 字數過長時換行。
 set wrap
 "set nowrap     " 不換行
@@ -68,8 +68,7 @@ let g:NERDTreeWinSize = 20
 " 設定 \ + n 打開 NERDTree
 map <Leader>n <plug>NERDTreeTabsToggle<CR>
 " 設定滑鼠只能在 Visual, Normal mode時有作用
-set mouse=nv
+"set mouse=nv
 
 abbreviate fs w !sudo tee %
-abbreviate nt setl noai nocin nosi inde=
-
+abbreviate pt set paste
