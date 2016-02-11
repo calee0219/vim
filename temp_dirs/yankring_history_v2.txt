@@ -1,0 +1,100 @@
+  cout << s;,V
+inside(vertex[1], vertex[2], vertex[3], p),v
+bool same_slop(point a, point b, point c),V
+ ,v
+    {},V
+    if(isline(a,b,c)),V
+int inside();,V
+        {},V
+            vertex[i] = p;,V
+        },V
+        {,V
+bool isline(),V
+long long int area(),V
+                int ord = 1;,V
+,V
+queue<int> q[100001];,V
+                cout << ord << endl;,V
+                cout << q[b].front() << ' ' << q[b].back() << endl;,V
+                cout << a << ' ' << b << endl;,V
+            cout << mv << endl;,V
+            queue<int> q[100010];,V
+                while(!q[b].empty()),V
+                cout << "hi" << endl;,V
+        ,V
+long long int sum;,V
+    int n, m;,V
+            },V
+            {,V
+                //cout << l << ' ' << i << endl;,V
+    //cout << l << endl;,V
+    for(int i = 1; i <= n; ++i),V
+        cout << a[i] << ' ';,V
+    cout << endl;,V
+    cout << "hi";,V
+    int sum = 0;,V
+        return;,V
+    if(l >= n+1),V
+    cout << l << endl;    if(l >= n+1),V
+    dfs(n, l+1);,V
+                used[node[l].at(i)] = 1;,V
+            used[node[l].at(i)] = 1;,V
+    },V
+    {,V
+    if(used[l] == 0),V
+    cout << l << endl;,V
+    cout << "i";,V
+tmp_cc = p[1],v
+            int tmp = inside(x, y);,V
+        return 1;,V
+            abs(x*ny[2]+nx[2]*ny[3]+nx[3]*y-y*nx[2]-ny[2]*nx[3]-ny[3]*x)),V
+            abs(nx[1]*y+x*ny[3]+nx[3]*ny[1]-ny[1]*x-y*nx[3]-ny[3]*nx[1]) +,V
+            abs(nx[1]*ny[2]+nx[2]*y+x*ny[1]-ny[1]*nx[2]-ny[2]*x-y*nx[1]) +,V
+    if(abs(nx[1]*ny[2]+nx[2]*ny[3]+nx[3]*ny[1]-ny[1]*nx[2]-ny[2]*nx[3]-ny[3]*nx[1]) >,V
+Wunder_Fund_Round_2016(Div.1+Div.2combined),v
+        scanf("%I64d%I64d", &x, &y);,V
+                nx[tmp] = x;                ny[tmp] = y;                p[tmp] = che;,V
+            ,V
+    if(nx[1]*ny[2]+nx[2]*ny[3]+nx[3]*ny[1]-ny[1]*nx[2]-ny[2]*nx[3]-ny[3]*nx[1] >,V
+(double),v
+/(ny[3]-y,v
+(ny[3]-ny[1]),v
+/(ny[2]-y),v
+(ny[2]-ny[3]),v
+(ny[1]-y),v
+(ny[1]-ny[2]),v
+        if((nx[1]-nx[2])/(ny[1]-ny[2]) == (nx[1]-nx[2])/(ny[1]-ny[2]))            return 1;,V
+(nx[1]-nx[2])/(ny[1]-ny[2]),v
+    if(nx[1]*ny[2]+nx[2]*ny[3]+nx[3]*ny[1]-ny[1]*nx[2]-ny[2]*nx[3]-ny[3]*nx[1] >            nx[1]*ny[2]+nx[2]*y+x*ny[1]-ny[1]*nx[2]-ny[2]*x-y*nx[1] +            nx[1]*y+x*ny[3]+nx[3]*ny[1]-ny[1]*x-y*nx[3]-ny[3]*nx[1] +            x*ny[2]+nx[2]*ny[3]+nx[3]*y-y*nx[2]-ny[2]*nx[3]-ny[3]*x),V
+    return 0;,V
+            nx[1]*ny[2]+nx[2]*y+x*ny[1]-ny[1]*nx[2]-ny[2]*x-y*nx[1] +,V
+            cout << "hi";,V
+                cout << "hi";,V
+        cout << x << y << endl;,V
+nx[1]*ny[2]+nx[2]*ny[3]+nx[3]*ny[1]-ny[1]*nx[2]-ny[2]*nx[3]-ny[3]*nx[1],v
+            if(tmp),V
+            inside(x, y);,V
+int inside(int x, int y);,V
+    int p[4];,V
+    int nx[4], ny[4];,V
+        che++;,V
+    int che = 0;,V
+        cout << sv[i] << ' ';,V
+            bool che[55] = {0};,V
+            cout << tmp;,V
+        cnt++;,V
+    for(int i = 0; i < n; ++i),V
+    while(n),V
+    int sv[10000];,V
+            break;,V
+            used[],V
+    for(int i = l; i <= n; ++i),V
+    vector<int> node[1000000];,V
+# Changes to be committed:,V
+#,V
+# Your branch is up-to-date with 'origin/master'.,V
+# On branch master,V
+# with '#' will be ignored, and an empty message aborts the commit.,V
+            cout << g[i] << ' ';,V
+        for(int i = 1; i <= n; ++i),V
+            a[g[b]] += a[c];,V
