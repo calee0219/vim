@@ -1,3 +1,16 @@
+,V
+python update_plugins.py,V
+sudo pip install requests,V
+sudo pip install tempfile,V
+sudo pip install shutil,V
+sudo pip install zipfile,V
+sudo yum install python python-pip,V
+sudo apt-get install python python-pip,V
+# update  plugins,V
+```,V
+```shell,V
+or,V
+source ~/.vim/vimrcs/kenming.vimrc,V
     int i,V
   cout << s;,V
 inside(vertex[1], vertex[2], vertex[3], p),v
@@ -13,7 +26,6 @@ int inside();,V
 bool isline(),V
 long long int area(),V
                 int ord = 1;,V
-,V
 queue<int> q[100001];,V
                 cout << ord << endl;,V
                 cout << q[b].front() << ' ' << q[b].back() << endl;,V
@@ -86,15 +98,3 @@ int inside(int x, int y);,V
         cnt++;,V
     for(int i = 0; i < n; ++i),V
     while(n),V
-    int sv[10000];,V
-            break;,V
-            used[],V
-    for(int i = l; i <= n; ++i),V
-    vector<int> node[1000000];,V
-# Changes to be committed:,V
-#,V
-# Your branch is up-to-date with 'origin/master'.,V
-# On branch master,V
-# with '#' will be ignored, and an empty message aborts the commit.,V
-            cout << g[i] << ' ';,V
-        for(int i = 1; i <= n; ++i),V
