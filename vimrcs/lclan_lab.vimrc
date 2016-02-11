@@ -1,3 +1,8 @@
+" ~/.vim/vimrcs/lclan_lab.vimrc
+" This script is copy from my brother's lab
+"
+"
+"
 "hhyou version
 " = =
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""

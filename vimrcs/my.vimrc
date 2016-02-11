@@ -1,5 +1,8 @@
-" /home/calee0219/.vimrc
-
+" ~/.vim/vimrcs/my.vimrc
+" This is my vimrc
+"
+"
+"
 " 檔案編碼
 set encoding=utf-8
 set fileencodings=utf-8,cp950
@@ -8,10 +11,15 @@ set fileencodings=utf-8,cp950
 set number
 " 設定目前行底線提示
 set cursorline
+" 高亮當前列 (垂直)
+set cursorcolumn
 " 顯示右下角詳細資訊
 set ruler
-" 在關鍵字還沒完全輸入完畢前就顯示結果
-set incsearch
+" 顯示相對行號。
+set relativenumber
+" 字數過長時換行。
+set wrap
+"set nowrap     " 不換行
 
 "  Color
 " Set syntax color
@@ -22,6 +30,8 @@ syntax on
 set background=dark " dark or light
 " Change background and frontground color
 "highlight Normal ctermfg=black ctermbg=white
+" 在關鍵字還沒完全輸入完畢前就顯示結果
+set incsearch
 
 "  Set tab
 " Set auto tab
@@ -39,10 +49,16 @@ set shiftwidth=4
 " Change tap to space
 "set expandtab
 " 折疊
+set foldenable
 set foldmethod=syntax
 set foldmethod=indent
+set foldcolumn=1
+set foldlevel=5
 " disable auto comment
 setlocal formatoptions-=c formatoptions-=r formatoptions-=o
+
+" 在 fish 裡相容 Vim 裡的 Neobundle。
+set shell=/bin/bash
 
 " 套件
 " To auto run .vim/bundle

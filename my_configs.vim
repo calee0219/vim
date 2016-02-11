@@ -1,7 +1,6 @@
 " .vim_runtime/my_configs.vim
 
-source ~/.vim/vimrcs/vimrc.me
-source ~/.vim/vimrcs/lalan_lab.vimrc
+source ~/.vim/vimrcs/my.vimrc
 
 "  外部
 " 快捷鍵
@@ -19,3 +18,5 @@ source ~/.vim/vimrcs/append/other
 " all in one
 "source ~/.vim/append/.vimrc
 
+source ~/.vim/vimrcs/lalan_lab.vimrc
+source ~/.vim/vimrcs/kenming.vimrc
