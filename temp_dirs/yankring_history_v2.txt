@@ -1,14 +1,27 @@
+```,V
 ,V
+* (On Linux) If you don't have python and pip or you're not sure what's this, type:,V
+```shell,V
+sudo preinstall.sh,V
+* (On Windows) Just go [here](https://www.python.org/) to download and install python.,V
 python update_plugins.py,V
 sudo pip install requests,V
 sudo pip install tempfile,V
 sudo pip install shutil,V
 sudo pip install zipfile,V
+fi,V
+    sudo yum install -y vim gcc ctags xclip astyle python-setuptools python-dev git python python-pip,V
+elif which yum > /dev/null; then,V
+    sudo apt-get install -y vim gcc ctags xclip astyle python-setuptools python-dev git python python-pip,V
+if which apt-get > /dev/null; then,V
+#!/bin/bash,V
+#!/bin/bashif which apt-get > /dev/null; then    sudo apt-get install -y vim gcc ctags xclip astyle python-setuptools python-dev git python python-pipelif which yum > /dev/null; then    sudo yum install -y vim gcc ctags xclip astyle python-setuptools python-dev git python python-pipfisudo pip install zipfilesudo pip install shutilsudo pip install tempfilesudo pip install requestssudo easy_install -?U autopep8mv -f ~/.vim ~/vim_oldmv -f ~/.vimrc ~/old.vimrccd ~/ && git clone https://github.com/calee0219/vimrc.git ~/.vimcd ~/.vimpython update_plugins.pyecho 'set runtimepath+=~/.vimsource ~/.vim/vimrcs/basic.vimsource ~/.vim/vimrcs/filetypes.vimsource ~/.vim/vimrcs/plugins_config.vimsource ~/.vim/vimrcs/extended.vimtrysource ~/.vim/my_configs.vimcatchendtry' > ~/.vimrcecho "Installed the Ultimate Vim configration successfully!Enjoy it! :-)",V
+if which apt-get > /dev/null; then    sudo apt-get install -y vim gcc ctags xclip astyle python-setuptools python-dev git python python-pipelif which yum > /dev/null; then    sudo yum install -y vim gcc ctags xclip astyle python-setuptools python-dev git python python-pipfisudo pip install zipfilesudo pip install shutilsudo pip install tempfilesudo pip install requestspython update_plugins.py,V
+yum install python pyton-pip,V
+ctags xclip astyle python-setuptools python-dev git,v
 sudo yum install python python-pip,V
 sudo apt-get install python python-pip,V
 # update  plugins,V
-```,V
-```shell,V
 or,V
 source ~/.vim/vimrcs/kenming.vimrc,V
     int i,V
@@ -85,16 +98,3 @@ Wunder_Fund_Round_2016(Div.1+Div.2combined),v
                 cout << "hi";,V
         cout << x << y << endl;,V
 nx[1]*ny[2]+nx[2]*ny[3]+nx[3]*ny[1]-ny[1]*nx[2]-ny[2]*nx[3]-ny[3]*nx[1],v
-            if(tmp),V
-            inside(x, y);,V
-int inside(int x, int y);,V
-    int p[4];,V
-    int nx[4], ny[4];,V
-        che++;,V
-    int che = 0;,V
-        cout << sv[i] << ' ';,V
-            bool che[55] = {0};,V
-            cout << tmp;,V
-        cnt++;,V
-    for(int i = 0; i < n; ++i),V
-    while(n),V
