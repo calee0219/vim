@@ -1,5 +1,49 @@
-```,V
+# COLOR# ResetColor_Off="\e[0m"       # Text Reset# Regular ColorsBlack="\e[0;30m"        # BlackRed="\e[0;31m"          # RedGreen="\e[0;32m"        # GreenYellow="\e[0;33m"       # YellowBlue="\e[0;34m"         # BluePurple="\e[0;35m"       # PurpleCyan="\e[0;36m"         # CyanWhite="\e[0;37m"        # White# BoldBBlack="\e[1;30m"       # BlackBRed="\e[1;31m"         # RedBGreen="\e[1;32m"       # GreenBYellow="\e[1;33m"      # YellowBBlue="\e[1;34m"        # BlueBPurple="\e[1;35m"      # PurpleBCyan="\e[1;36m"        # CyanBWhite="\e[1;37m"       # White,V
+                tmp.s[i] = two[0]; tmp.s[i+1] = two[1];,V
+    two.push_back(s[num]); two.push_back(s[num+1]);,V
+    getchar();,V
+        cout << s.at(i);,V
+    for(int i = 0; i < s.size(); ++i),V
+    cout << "move" << endl;,V
+    cout << "bfs" << endl;,V
+/*,V
+  cout << dp.front().layer << endl;,V
+      cout << q.front().s[i];,V
+  for(int i = 0; i < 2*n; ++i),V
+  init();,V
+  cout << finish(tmp) << endl;,V
+  cout << endl;,V
+      cout << tmp.at(i);,V
+  },V
+      tmp.push_back('o');,V
+    else,V
+      tmp.push_back('x');,V
+    if(i & 1),V
+  {,V
+  vector<char> tmp;,V
+  //cout << bfs();,V
+    getchar();    vector<char> two, s;,V
 ,V
+*/,V
+},V
+  return true;,V
+    return false;,V
+  default:,V
+    break;,V
+    },V
+      else return false;,V
+      if(s[i] == 'x' && s[i+1] == 'o');,V
+    {,V
+    for(int i = 0; i < 2*n; i+=2),V
+  case 'x':,V
+      if(s[i] ==  'o' && s[i+1] == 'x');,V
+    cout << s[i] << s[i+1] << endl;,V
+  case 'o':,V
+  switch (s[0]) {,V
+{,V
+bool finish(vector<char> s),V
+void init(void){    vector<char> s;    for(int i = 0; i < n; ++i)        s.push_back('o');    for(int i = 0; i < n; ++i)        s.push_back('x');    state tmp;    tmp.s = s;    tmp.layer = 0;    dp.push_back(tmp);    q.push(tmp);    return;},V
+```,V
 * (On Linux) If you don't have python and pip or you're not sure what's this, type:,V
 ```shell,V
 sudo preinstall.sh,V
@@ -54,47 +98,3 @@ long long int sum;,V
             {,V
                 //cout << l << ' ' << i << endl;,V
     //cout << l << endl;,V
-    for(int i = 1; i <= n; ++i),V
-        cout << a[i] << ' ';,V
-    cout << endl;,V
-    cout << "hi";,V
-    int sum = 0;,V
-        return;,V
-    if(l >= n+1),V
-    cout << l << endl;    if(l >= n+1),V
-    dfs(n, l+1);,V
-                used[node[l].at(i)] = 1;,V
-            used[node[l].at(i)] = 1;,V
-    },V
-    {,V
-    if(used[l] == 0),V
-    cout << l << endl;,V
-    cout << "i";,V
-tmp_cc = p[1],v
-            int tmp = inside(x, y);,V
-        return 1;,V
-            abs(x*ny[2]+nx[2]*ny[3]+nx[3]*y-y*nx[2]-ny[2]*nx[3]-ny[3]*x)),V
-            abs(nx[1]*y+x*ny[3]+nx[3]*ny[1]-ny[1]*x-y*nx[3]-ny[3]*nx[1]) +,V
-            abs(nx[1]*ny[2]+nx[2]*y+x*ny[1]-ny[1]*nx[2]-ny[2]*x-y*nx[1]) +,V
-    if(abs(nx[1]*ny[2]+nx[2]*ny[3]+nx[3]*ny[1]-ny[1]*nx[2]-ny[2]*nx[3]-ny[3]*nx[1]) >,V
-Wunder_Fund_Round_2016(Div.1+Div.2combined),v
-        scanf("%I64d%I64d", &x, &y);,V
-                nx[tmp] = x;                ny[tmp] = y;                p[tmp] = che;,V
-            ,V
-    if(nx[1]*ny[2]+nx[2]*ny[3]+nx[3]*ny[1]-ny[1]*nx[2]-ny[2]*nx[3]-ny[3]*nx[1] >,V
-(double),v
-/(ny[3]-y,v
-(ny[3]-ny[1]),v
-/(ny[2]-y),v
-(ny[2]-ny[3]),v
-(ny[1]-y),v
-(ny[1]-ny[2]),v
-        if((nx[1]-nx[2])/(ny[1]-ny[2]) == (nx[1]-nx[2])/(ny[1]-ny[2]))            return 1;,V
-(nx[1]-nx[2])/(ny[1]-ny[2]),v
-    if(nx[1]*ny[2]+nx[2]*ny[3]+nx[3]*ny[1]-ny[1]*nx[2]-ny[2]*nx[3]-ny[3]*nx[1] >            nx[1]*ny[2]+nx[2]*y+x*ny[1]-ny[1]*nx[2]-ny[2]*x-y*nx[1] +            nx[1]*y+x*ny[3]+nx[3]*ny[1]-ny[1]*x-y*nx[3]-ny[3]*nx[1] +            x*ny[2]+nx[2]*ny[3]+nx[3]*y-y*nx[2]-ny[2]*nx[3]-ny[3]*x),V
-    return 0;,V
-            nx[1]*ny[2]+nx[2]*y+x*ny[1]-ny[1]*nx[2]-ny[2]*x-y*nx[1] +,V
-            cout << "hi";,V
-                cout << "hi";,V
-        cout << x << y << endl;,V
-nx[1]*ny[2]+nx[2]*ny[3]+nx[3]*ny[1]-ny[1]*nx[2]-ny[2]*nx[3]-ny[3]*nx[1],v
