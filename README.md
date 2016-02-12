@@ -6,23 +6,27 @@ Basically, I just used [amix's vimrc](https://github.com/amix/vimrc).
 
 I have also copy the rc script from [vgod's vimrc](https://github.com/vgod/vimrc).
 
-I also add some [appending tool](vimrcs/append) to improve it
+I also add some [appending tool](vimrcs/append) copy from [ma6174](https://github.com/ma6174/vim) to improve it
 
 ## How to install
+#### Auto Install
+* Use curl (for Mac OS X):
+```shell
+    curl -o - https://github.com/calee0219/vimrc/master/auto_install.sh | sh
+```
+* or wget (for most UNIX platforms):
+```shell
+    wget -O - https://github.com/calee0219/vimrc/master/auto_install.sh | sh
+```
+
+#### Manually Install
 * First, type the command below in your termainal or cmd
 ```shell
 git clone https://github.com/calee0219/vimrc.git ~/.vim
 cd ~/.vim
 ```
 
-* (On Linux) If you don't have python and pip or you're not sure what's this, type:
-```shell
-sudo preinstall.sh
-```
-
-* (On Windows) Just go [here](https://www.python.org/) to download and install python.
-
-* Last, type:
+* Then, type:
 ```shell
 chmod 755 ~/.vim/install_vimrc.sh
 sudo ~/.vim/install_vimrc.sh
