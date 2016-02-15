@@ -53,7 +53,7 @@ set foldenable
 set foldmethod=syntax
 set foldmethod=indent
 set foldcolumn=1
-set foldlevel=5
+"set foldlevel=1
 " disable auto comment
 setlocal formatoptions-=c formatoptions-=r formatoptions-=o
 

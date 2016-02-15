@@ -1,9 +1,64 @@
+        s.erase(s.end());,V
+            cout << "check" << endl;,V
+            getchar();,V
+i+j < s.size(),v
+            //cout << "Right" << '\t' << num << ' ' << i << endl;,V
+i+j >= s.size(),v
+#define RIGHT 0,V
+#define LEFT 1,V
+    },V
+    {,V
+    else,V
+    if(dir == RIGHT),V
+                return q.back().layer;,V
+            if(move(LEFT, q.front(), i)),V
+    cout << length << endl;,V
+            if(dp.at(i).s.size() != length),V
+        bool check = true;,V
+            return false;,V
+            ,V
+             if,v
+        if(dp.at(i).s.size() != length,V
+            cout << "finish check" << endl;,V
+            cout << "check = " << check << endl;,V
+    cout << "move" << endl;,V
+  init();,V
+  cout << bfs();,V
+  ,V
+,V
+    #PS1="\[\e]0;${debian_chroot:+($debian_chroot)}\u@\h: \w\a\]$PS1",V
+    #PS1="$BCyan\t $BPurple\D{%m/%d} $BYellow\u$BWhite@\h $BGreen[\w] \$(function_svn_string)$Color_Off\r\n> ",V
+    #set prompt="[${Green}%n${Blue}@%m ${White}%~ ]${Color_Off} ",V
+    #set prompt="${Green}%n${Blue}@%m ${White}%~ ${Green}%%${Color_Off} ",V
+    BWhite="\e[1;37m"       # White,V
+    BCyan="\e[1;36m"        # Cyan,V
+    BPurple="\e[1;35m"      # Purple,V
+    BBlue="\e[1;34m"        # Blue,V
+    BYellow="\e[1;33m"      # Yellow,V
+    BGreen="\e[1;32m"       # Green,V
+    BRed="\e[1;31m"         # Red,V
+    BBlack="\e[1;30m"       # Black,V
+    # Bold,V
+    White="\e[0;37m"        # White,V
+    Cyan="\e[0;36m"         # Cyan,V
+    Purple="\e[0;35m"       # Purple,V
+    Blue="\e[0;34m"         # Blue,V
+    Yellow="\e[0;33m"       # Yellow,V
+    Green="\e[0;32m"        # Green,V
+    Red="\e[0;31m"          # Red,V
+    Black="\e[0;30m"        # Black,V
+    # Regular Colors,V
+    Color_Off="\e[0m"       # Text Reset,V
+    # Reset,V
+    # COLOR,V
+    \D{%m/%d},V
+r_Off="\e[0m"       # Text Reset,v
+end,V
+    echo (pwd) "> ",V
                 cout << "here" << endl;,V
                     tmp.s.at(i+j) = save.at(j);,V
-    cout << "move" << endl;,V
     cout << "here" << endl;,V
     return q.back().layer;,V
-,V
                 tmp.s[i] = two[0]; tmp.s[i+1] = two[1];,V
     PS1="\[\e]0;${debian_chroot:+($debian_chroot)}\u@\h: \w\a\]$PS1",V
 	PS1="$BCyan\t $BPurple\D{%m/%d} $BYellow\u$BWhite@\h $BGreen[\w] \$(function_svn_string)$Color_Off\r\n> ",V
@@ -17,13 +72,11 @@
   cout << dp.front().layer << endl;,V
       cout << q.front().s[i];,V
   for(int i = 0; i < 2*n; ++i),V
-  init();,V
   cout << finish(tmp) << endl;,V
   cout << endl;,V
       cout << tmp.at(i);,V
   },V
       tmp.push_back('o');,V
-    else,V
       tmp.push_back('x');,V
     if(i & 1),V
   {,V
@@ -36,10 +89,8 @@
     return false;,V
   default:,V
     break;,V
-    },V
       else return false;,V
       if(s[i] == 'x' && s[i+1] == 'o');,V
-    {,V
     for(int i = 0; i < 2*n; i+=2),V
   case 'x':,V
       if(s[i] ==  'o' && s[i+1] == 'x');,V
@@ -47,54 +98,3 @@
   case 'o':,V
   switch (s[0]) {,V
 {,V
-bool finish(vector<char> s),V
-void init(void){    vector<char> s;    for(int i = 0; i < n; ++i)        s.push_back('o');    for(int i = 0; i < n; ++i)        s.push_back('x');    state tmp;    tmp.s = s;    tmp.layer = 0;    dp.push_back(tmp);    q.push(tmp);    return;},V
-```,V
-* (On Linux) If you don't have python and pip or you're not sure what's this, type:,V
-```shell,V
-sudo preinstall.sh,V
-* (On Windows) Just go [here](https://www.python.org/) to download and install python.,V
-python update_plugins.py,V
-sudo pip install requests,V
-sudo pip install tempfile,V
-sudo pip install shutil,V
-sudo pip install zipfile,V
-fi,V
-    sudo yum install -y vim gcc ctags xclip astyle python-setuptools python-dev git python python-pip,V
-elif which yum > /dev/null; then,V
-    sudo apt-get install -y vim gcc ctags xclip astyle python-setuptools python-dev git python python-pip,V
-if which apt-get > /dev/null; then,V
-#!/bin/bash,V
-#!/bin/bashif which apt-get > /dev/null; then    sudo apt-get install -y vim gcc ctags xclip astyle python-setuptools python-dev git python python-pipelif which yum > /dev/null; then    sudo yum install -y vim gcc ctags xclip astyle python-setuptools python-dev git python python-pipfisudo pip install zipfilesudo pip install shutilsudo pip install tempfilesudo pip install requestssudo easy_install -?U autopep8mv -f ~/.vim ~/vim_oldmv -f ~/.vimrc ~/old.vimrccd ~/ && git clone https://github.com/calee0219/vimrc.git ~/.vimcd ~/.vimpython update_plugins.pyecho 'set runtimepath+=~/.vimsource ~/.vim/vimrcs/basic.vimsource ~/.vim/vimrcs/filetypes.vimsource ~/.vim/vimrcs/plugins_config.vimsource ~/.vim/vimrcs/extended.vimtrysource ~/.vim/my_configs.vimcatchendtry' > ~/.vimrcecho "Installed the Ultimate Vim configration successfully!Enjoy it! :-)",V
-if which apt-get > /dev/null; then    sudo apt-get install -y vim gcc ctags xclip astyle python-setuptools python-dev git python python-pipelif which yum > /dev/null; then    sudo yum install -y vim gcc ctags xclip astyle python-setuptools python-dev git python python-pipfisudo pip install zipfilesudo pip install shutilsudo pip install tempfilesudo pip install requestspython update_plugins.py,V
-yum install python pyton-pip,V
-ctags xclip astyle python-setuptools python-dev git,v
-sudo yum install python python-pip,V
-sudo apt-get install python python-pip,V
-# update  plugins,V
-or,V
-source ~/.vim/vimrcs/kenming.vimrc,V
-    int i,V
-  cout << s;,V
-inside(vertex[1], vertex[2], vertex[3], p),v
-bool same_slop(point a, point b, point c),V
- ,v
-    {},V
-    if(isline(a,b,c)),V
-int inside();,V
-        {},V
-            vertex[i] = p;,V
-        },V
-        {,V
-bool isline(),V
-long long int area(),V
-                int ord = 1;,V
-queue<int> q[100001];,V
-                cout << ord << endl;,V
-                cout << q[b].front() << ' ' << q[b].back() << endl;,V
-                cout << a << ' ' << b << endl;,V
-            cout << mv << endl;,V
-            queue<int> q[100010];,V
-                while(!q[b].empty()),V
-                cout << "hi" << endl;,V
-        ,V
