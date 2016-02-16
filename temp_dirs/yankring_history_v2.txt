@@ -1,3 +1,7 @@
+,V
+set -g status-interval 2,V
+set -g status-left-length 60,V
+set -g status-left "#S #[fg=green,bg=black]#(tmux-mem-cpu-load --colors --interval 2)#[default]",V
         s.erase(s.end());,V
             cout << "check" << endl;,V
             getchar();,V
@@ -25,7 +29,6 @@ i+j >= s.size(),v
   init();,V
   cout << bfs();,V
   ,V
-,V
     #PS1="\[\e]0;${debian_chroot:+($debian_chroot)}\u@\h: \w\a\]$PS1",V
     #PS1="$BCyan\t $BPurple\D{%m/%d} $BYellow\u$BWhite@\h $BGreen[\w] \$(function_svn_string)$Color_Off\r\n> ",V
     #set prompt="[${Green}%n${Blue}@%m ${White}%~ ]${Color_Off} ",V
@@ -95,6 +98,3 @@ end,V
   case 'x':,V
       if(s[i] ==  'o' && s[i+1] == 'x');,V
     cout << s[i] << s[i+1] << endl;,V
-  case 'o':,V
-  switch (s[0]) {,V
-{,V

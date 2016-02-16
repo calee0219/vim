@@ -18,6 +18,7 @@ source ~/.vim/vimrcs/append/other
 " all in one
 "source ~/.vim/append/.vimrc
 
+source ~/.vim/vimrcs/tourist.vimrc
 source ~/.vim/vimrcs/lalan_lab.vimrc
 source ~/.vim/vimrcs/kenming.vimrc
 source ~/.vim/vimrc/vgod.vimrc
