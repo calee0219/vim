@@ -99,3 +99,11 @@ Plugin [airblade/vim-gitgutter](https://github.com/airblade/vim-gitgutter)      
 Plugin [rking/ag.vim](https://github.com/rking/ag.vim)                       " This is for better diff using ag
 
 Plugin [humiaozuzu/tabbar](https://github.com/humiaozuzu/tabbar)                  " This is for better tabbar
+
+
+▸ nerdtree/
+▸ syntastic/
+▸ vim-airline/
+▸ vim-nerdtree-tabs/
+▸ vim-sensible/
+▸ vim-tabber/
