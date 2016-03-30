@@ -17,6 +17,8 @@ Plugin 'VundleVim/Vundle.vim'
 
 " Add vulndle plugin here!!!
 " plugin on GitHub repo
+Plugin tpope/vim-sensible " This is for some sensible layout
+Plugin Valloric/YouCompleteMe " This is for auto complete
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
