@@ -17,8 +17,13 @@ Plugin 'VundleVim/Vundle.vim'
 
 " Add vulndle plugin here!!!
 " plugin on GitHub repo
-Plugin 'tpope/vim-sensible'         " This is for some sensible layout
-Plugin 'Valloric/YouCompleteMe'     " This is for auto complete
+Plugin 'tpope/vim-sensible'             " This is for some sensible layout
+Plugin 'Valloric/YouCompleteMe'         " This is for auto complete
+Plugin 'scrooloose/nerdtree'            " This is for NERDtree
+Plugin 'jiangmiao/auto-pairs'           " This is for auto complete brackets
+Plugin 'scrooloose/syntastic'           " This is for syntax checking
+Plugin 'vim-airline/vim-airline'        " This is for awesome outlook
+Plugin 'vim-airline/vim-airline-themes' " This is for awesome outlook
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
