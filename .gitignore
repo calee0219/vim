@@ -1,2 +1,2 @@
 # ignore bundle and use vundle as contralling module
-vim/bundle/*
+bundle/*
