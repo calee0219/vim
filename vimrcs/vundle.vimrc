@@ -24,6 +24,7 @@ Plugin 'jiangmiao/auto-pairs'           " This is for auto complete brackets
 Plugin 'scrooloose/syntastic'           " This is for syntax checking
 Plugin 'vim-airline/vim-airline'        " This is for awesome outlook
 Plugin 'vim-airline/vim-airline-themes' " This is for awesome outlook
+Plugin 'majutsushi/tagbar'              " This is for an easy way to browse the tags
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required

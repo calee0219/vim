@@ -2,17 +2,13 @@
 
 cd ~/.vim
 
-echo 'set runtimepath+=~/.vim
+git submodule init
+git submodule update
 
-source ~/.vim/vimrcs/basic.vim
-source ~/.vim/vimrcs/filetypes.vim
-source ~/.vim/vimrcs/plugins_config.vim
-source ~/.vim/vimrcs/extended.vim
-
-try
-source ~/.vim/my_configs.vim
-catch
-endtry' > ~/.vimrc
-
-echo "Installed the Ultimate Vim configration successfully!
-Enjoy it! :-)"
+ln -fs ~/.vim ~/.vim
+vim +PluginInstall +qall
+yes y | sudo $app install automake gcc gcc-c++ kernel-devel cmake
+yes y | sudo $app install python-devel python3-devel
+cd ~/.vim/bundle/YouCompleteMe
+./install.py --clang-completer --gocode-completer --tern-completer
+ln -fs ~/.vim/ycm_extra_conf.py ~/.ycm_extra_conf.py
