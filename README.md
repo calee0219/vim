@@ -45,7 +45,7 @@ If you want to create files with title automatically set on it,
 
    such as: in C++ file, adding #indlude\<iostream\>...
 
-you can add tax into [vimrcs/tital.vimrc](vimrcs/tital.vimrc)
+you can add tax into [vimrcs/title.vimrc](vimrcs/title.vimrc)
 
 ##Recommanding plugin
 
