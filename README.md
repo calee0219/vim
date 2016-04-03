@@ -12,15 +12,15 @@ I uniformly used [Vundle](https://github.com/VundleVim/Vundle.vim) to contral my
 #### Auto Install
 * Use curl (for Mac OS X):
 ```shell
-    curl -o - https://github.com/calee0219/vimrc/master/auto_install.sh | sh
+    curl -o - https://github.com/calee0219/vim/master/auto_install.sh | sh
 ```
 * or wget (for most UNIX platforms):
 ```shell
-    wget -O - https://github.com/calee0219/vimrc/master/auto_install.sh | sh
+    wget -O - https://github.com/calee0219/vim/master/auto_install.sh | sh
 ```
 
 #### Manually Install
-* First, type the command below in your termainal or cmd
+* First, type the command below in your termainal or cmd to clone the repo down
 ```shell
 git clone https://github.com/calee0219/vimrc.git ~/.vim
 cd ~/.vim
@@ -29,15 +29,15 @@ cd ~/.vim
 * Then, type:
 ```shell
 chmod 755 ~/.vim/install_vimrc.sh
-sudo ~/.vim/install_vimrc.sh
+~/.vim/install_vimrc.sh
 ```
 That's it!
 
 ## Add your own rc script
 
-If you want to add your own rc script, I recommend to add it in [~/.vim/vimrcs/my.vimrc](vimrcs/my.vimrc)
+If you want to add your own rc script, I recommend to add it in [~/.vim/vimrc](vimrc)
 
-Of couse, you can also add it in [~/.vim/my_configs.vim](my_configs.vim) or just add it in ~/.vimrc
+Of couse, you can also add it in [~/.vim/vimrcs/](vimrcs) and category them yourself or just add it in ~/.vimrc
 
 ## Auto title
 
@@ -45,7 +45,7 @@ If you want to create files with title automatically set on it,
 
    such as: in C++ file, adding #indlude\<iostream\>...
 
-you can add tax into [vimrcs/append/tital](vimrcs/append/tital)
+you can add tax into [vimrcs/tital.vimrc](vimrcs/tital.vimrc)
 
 ##Recommanding plugin
 
@@ -100,10 +100,3 @@ Plugin [rking/ag.vim](https://github.com/rking/ag.vim)                       " T
 
 Plugin [humiaozuzu/tabbar](https://github.com/humiaozuzu/tabbar)                  " This is for better tabbar
 
-
-▸ nerdtree/
-▸ syntastic/
-▸ vim-airline/
-▸ vim-nerdtree-tabs/
-▸ vim-sensible/
-▸ vim-tabber/

@@ -1,14 +1,13 @@
 #!/bin/bash
 
-cd ~/.dotfiles/vim
+path=$(pwd)
 
 git submodule init
 git submodule update
 
-ln -fs ~/.dotfiles/vim ~/.vim
 vim +PluginInstall +qall
 yes y | sudo $app install automake gcc gcc-c++ kernel-devel cmake
 yes y | sudo $app install python-devel python3-devel
-cd ~/.dotfiles/vim/bundle/YouCompleteMe
+cd ~/$path/bundle/YouCompleteMe
 ./install.py --clang-completer --gocode-completer --tern-completer
-ln -fs ~/.vim/ycm_extra_conf.py ~/.ycm_extra_conf.py
+ln -fs ~/$path/ycm_extra_conf.py ~/.ycm_extra_conf.py
