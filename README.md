@@ -1,7 +1,7 @@
 # Gavin Lee's vimrc settlement
 
-##This is [Gavin Lee's](https://github.com/calee0219) vimrc settlement.
-##You can also used my whole packed [dotfile](https://github.com/calee0219/.dotfiles) setting
+####This is [Gavin Lee's](https://github.com/calee0219) vimrc settlement.
+####You can also used my whole packed [dotfile](https://github.com/calee0219/.dotfiles) setting
 
 In the last version, I just used [amix's vimrc](https://github.com/amix/vimrc), and copy the rc script from [vgod's vimrc](https://github.com/vgod/vimrc), and add some [appending tool](vimrcs/append) copy from [ma6174](https://github.com/ma6174/vim) to improve it
 
