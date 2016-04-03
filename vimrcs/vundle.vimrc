@@ -25,6 +25,10 @@ Plugin 'scrooloose/syntastic'           " This is for syntax checking
 Plugin 'vim-airline/vim-airline'        " This is for awesome outlook
 Plugin 'vim-airline/vim-airline-themes' " This is for awesome outlook
 Plugin 'majutsushi/tagbar'              " This is for an easy way to browse the tags
+Plugin 'scrooloose/nerdcommenter'       " This is for section comment
+Plugin 'ervandew/supertab'              " This is for using for all your insert completion needs
+"Plugin 'SirVer/ultisnips'               " This is for ultimate solution for snippets
+"Plugin 'honza/vim-snippets'             " Snippets are separated from the engine. Add this if you want them:
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
