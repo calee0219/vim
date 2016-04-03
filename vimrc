@@ -1,6 +1,6 @@
-source vimrcs/vundle.vimrc
-source vimrcs/display.vimrc
-source vimrcs/title.vimrc
-source vimrcs/mapping.vimrc
+source ~/.vim/vimrcs/vundle.vimrc
+source ~/.vim/vimrcs/display.vimrc
+source ~/.vim/vimrcs/title.vimrc
+source ~/.vim/vimrcs/mapping.vimrc
 
 let g:ycm_global_ycm_extra_conf = '~/.ycm_extra_conf.py'

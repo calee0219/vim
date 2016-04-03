@@ -1,6 +1,14 @@
 #!/bin/bash
 
 path=$(pwd)
+# checking Linux OS
+if which apt-get >/dev/null 2>&1; then
+    app='apt-get'
+elif which dnf >/dev/null 2>&1; then
+    app='dnf'
+elif which pacman >/dev/null 2>&1; then
+    app='pacman'
+fi
 
 git submodule init
 git submodule update
