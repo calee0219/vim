@@ -27,6 +27,7 @@ Plugin 'vim-airline/vim-airline-themes' " This is for awesome outlook
 Plugin 'majutsushi/tagbar'              " This is for an easy way to browse the tags
 Plugin 'scrooloose/nerdcommenter'       " This is for section comment
 Plugin 'ervandew/supertab'              " This is for using for all your insert completion needs
+Plugin 'octol/vim-cpp-enhanced-highlight' " For better c++ style syntax highlight
 "Plugin 'SirVer/ultisnips'               " This is for ultimate solution for snippets
 "Plugin 'honza/vim-snippets'             " Snippets are separated from the engine. Add this if you want them:
 
