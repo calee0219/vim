@@ -66,7 +66,7 @@ func SetTitle()
         call append(line(".")+32, "")
         call append(line(".")+33, "int main()")
         call append(line(".")+34, "{")
-        call append(line(".")+35, "return 0;")
+        call append(line(".")+35, "    return 0;")
         call append(line(".")+36, "}")
     endif
     " .c
@@ -106,3 +106,4 @@ func SetTitle()
     " 新建文件後，自動定位到文件末尾
 endfunc
 autocmd BufNewFile * normal G
+autocmd BufNewFile *.cpp normal [[
