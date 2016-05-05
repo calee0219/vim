@@ -6,7 +6,7 @@
 """""新文件標題
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " 新建.c,.h,.sh,.java文件，自動插入文件頭
-"autocmd BufNewFile *.cpp,*.[ch],*.sh,*.rb,*.java,*.py exec ":call SetTitle()"
+autocmd BufNewFile *.cpp,*.[ch],*.sh,*.rb,*.java,*.py exec ":call SetTitle()"
 "" 定義函數SetTitle，自動插入文件頭
 func SetTitle()
     " .sh
