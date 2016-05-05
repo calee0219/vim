@@ -6,6 +6,7 @@
 " 檔案編碼
 set encoding=utf-8
 set fileencodings=utf-8,cp950
+language en_US
 
 "  Set line numbers
 set number

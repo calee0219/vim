@@ -3,7 +3,7 @@
 path=$(pwd)
 # checking Linux OS
 if which apt-get >/dev/null 2>&1; then
-    app='sudo apt-get install'
+    app='sudo apt-get install -f'
     yes | $app build-essential cmake
     yes | $app python-dev python3-dev
 elif which dnf >/dev/null 2>&1; then

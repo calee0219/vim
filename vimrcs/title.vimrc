@@ -6,7 +6,7 @@
 """""新文件標題
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " 新建.c,.h,.sh,.java文件，自動插入文件頭
-autocmd BufNewFile *.cpp,*.[ch],*.sh,*.rb,*.java,*.py exec ":call SetTitle()"
+"autocmd BufNewFile *.cpp,*.[ch],*.sh,*.rb,*.java,*.py exec ":call SetTitle()"
 "" 定義函數SetTitle，自動插入文件頭
 func SetTitle()
     " .sh
@@ -33,7 +33,7 @@ func SetTitle()
         call append(line(".")+2, "	> School: National Chiao Tung University")
         call append(line(".")+3, "	> Team: NCTU_Ragnorok")
         call append(line(".")+4, "	> Mail: sz110010@gmail.com")
-        call append(line(".")+5, "	> Created Time: ".strftime("%c"))
+        call append(line(".")+5, "	> Created Time: ".strftime("%Y/%m/%d %a %X (%Z)"))
         call append(line(".")+6, " ************************************************************************/")
         call append(line(".")+7, "")
     endif
@@ -53,21 +53,11 @@ func SetTitle()
         call append(line(".")+19, "using namespace std;")
         call append(line(".")+20, "")
         call append(line(".")+21, "typedef long long LL;")
-        call append(line(".")+22, "typedef pair<int,int> PII;")
-        call append(line(".")+23, "typedef pair<LL,LL> PLL;")
-        call append(line(".")+24, "typedef vector<int> VII;")
-        call append(line(".")+25, "typedef vector<LL> VLL;")
-        call append(line(".")+26, "typedef vector<PII> VPII;")
-        call append(line(".")+27, "typedef vector<PLL> VPLL;")
-        call append(line(".")+28, "//int dx[]={1,0,-1,0};              int dy[]={0,1,0,-1}; //4 Direction")
-        call append(line(".")+29, "//int dx[]={1,1,0,-1,-1,-1,0,1};    int dy[]={0,1,1,1,0,-1,-1,-1};//8 direction")
-        call append(line(".")+30, "//int dx[]={2,1,-1,-2,-2,-1,1,2};   int dy[]={1,2,2,1,-1,-2,-2,-1};//Knight Direction")
-        call append(line(".")+31, "//int dx[]={2,1,-1,-2,-1,1};        int dy[]={0,1,1,0,-1,-1}; //Hexagonal Direction")
-        call append(line(".")+32, "")
-        call append(line(".")+33, "int main()")
-        call append(line(".")+34, "{")
-        call append(line(".")+35, "    return 0;")
-        call append(line(".")+36, "}")
+        call append(line(".")+22, "")
+        call append(line(".")+23, "int main()")
+        call append(line(".")+24, "{")
+        call append(line(".")+25, "    return 0;")
+        call append(line(".")+26, "}")
     endif
     " .c
     if &filetype == 'c'
