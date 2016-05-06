@@ -22,6 +22,9 @@ nnoremap atft ggVG=
 nnoremap <F8> :TagbarToggle<CR>
 " use space-w to save file
 nnoremap <Leader>w :w<CR>
+" C-5 for Compile+Run C-6 for Compile only
+nnoremap <F5> :SCCompileRun<cr>
+nnoremap <F6> :SCCompile<cr>
 
 " Insert mode
 

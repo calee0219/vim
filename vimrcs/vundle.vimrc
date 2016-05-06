@@ -33,7 +33,9 @@ Plugin 'vim-airline/vim-airline-themes'     " This is for awesome outlook
 Plugin 'luochen1990/rainbow'                " This is for better bracket looks
 "Plugin 'SirVer/ultisnips'                  " This is for ultimate solution for snippets
 "Plugin 'honza/vim-snippets'                " Snippets are separated from the engine. Add this if you want them:
-"
+
+" Build, Compile, Run
+Plugin 'xuhdev/SingleCompile'               " For compile and run in vim
 " C++ language
 Plugin 'scrooloose/syntastic'               " This is for syntax checking
 Plugin 'octol/vim-cpp-enhanced-highlight'   " This is for better c++ style syntax highlight
