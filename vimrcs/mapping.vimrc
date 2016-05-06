@@ -23,8 +23,9 @@ nnoremap <F8> :TagbarToggle<CR>
 " use space-w to save file
 nnoremap <Leader>w :w<CR>
 " C-5 for Compile+Run C-6 for Compile only
-nnoremap <F5> :SCCompileRun<cr>
-nnoremap <F6> :SCCompile<cr>
+let SC = 0
+nnoremap <F5> :w<CR> :SCCompileRun<CR>
+nnoremap <F6> :SCViewResult<CR>
 
 " Insert mode
 
@@ -37,12 +38,6 @@ cabbr pt set paste
 " Plugin
 
 " Ultisnips
-" Track the engine.
-Plugin 'SirVer/ultisnips'
-
-" Snippets are separated from the engine. Add this if you want them:
-Plugin 'honza/vim-snippets'
-
 " Trigger configuration. Do not use <tab> if you use https://github.com/Valloric/YouCompleteMe.
 let g:UltiSnipsExpandTrigger="<tab>"
 let g:UltiSnipsJumpForwardTrigger="<c-b>"
@@ -50,12 +45,3 @@ let g:UltiSnipsJumpBackwardTrigger="<c-z>"
 
 " If you want :UltiSnipsEdit to split your window.
 let g:UltiSnipsEditSplit="vertical"
-
-" ultisnips
-" Trigger configuration. Do not use <tab> if you use https://github.com/Valloric/YouCompleteMe.
-"let g:UltiSnipsExpandTrigger="<tab>"
-"let g:UltiSnipsJumpForwardTrigger="<c-b>"
-"let g:UltiSnipsJumpBackwardTrigger="<c-z>"
-
-" If you want :UltiSnipsEdit to split your window.
-"let g:UltiSnipsEditSplit="vertical"

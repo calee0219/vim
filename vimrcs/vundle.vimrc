@@ -26,13 +26,13 @@ Plugin 'scrooloose/nerdtree'                " This is for NERDtree
 Plugin 'jiangmiao/auto-pairs'               " This is for auto complete brackets
 Plugin 'majutsushi/tagbar'                  " This is for an easy way to browse the tags
 Plugin 'scrooloose/nerdcommenter'           " This is for section comment
+Plugin 'SirVer/ultisnips'                  " This is for ultimate solution for snippets
+Plugin 'honza/vim-snippets'                " Snippets are separated from the engine. Add this if you want them:
 
 " Appearance
 Plugin 'vim-airline/vim-airline'            " This is for awesome outlook
 Plugin 'vim-airline/vim-airline-themes'     " This is for awesome outlook
 Plugin 'luochen1990/rainbow'                " This is for better bracket looks
-"Plugin 'SirVer/ultisnips'                  " This is for ultimate solution for snippets
-"Plugin 'honza/vim-snippets'                " Snippets are separated from the engine. Add this if you want them:
 
 " Build, Compile, Run
 Plugin 'xuhdev/SingleCompile'               " For compile and run in vim
