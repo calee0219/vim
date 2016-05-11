@@ -6,7 +6,7 @@
 " 檔案編碼
 set encoding=utf-8
 set fileencodings=utf-8,cp950
-language en_US
+language en_US.UTF-8
 
 "  Set line numbers
 set number
@@ -79,9 +79,9 @@ let NERDTreeShowBookmarks=1
 
 " vim-airline
 " display it
-python from powerline.vim import setup as powerline_setup
-python powerline_setup()
-python del powerline_setup
+"python from powerline.vim import setup as powerline_setup
+"python powerline_setup()
+"python del powerline_setup
 " set status line
 set laststatus=2
 set t_Co=256
