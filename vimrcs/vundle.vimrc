@@ -26,14 +26,19 @@ Plugin 'scrooloose/nerdtree'                " This is for NERDtree
 Plugin 'jiangmiao/auto-pairs'               " This is for auto complete brackets
 Plugin 'majutsushi/tagbar'                  " This is for an easy way to browse the tags
 Plugin 'scrooloose/nerdcommenter'           " This is for section comment
-Plugin 'SirVer/ultisnips'                  " This is for ultimate solution for snippets
-Plugin 'honza/vim-snippets'                " Snippets are separated from the engine. Add this if you want them:
+Plugin 'SirVer/ultisnips'                   " This is for ultimate solution for snippets
+Plugin 'honza/vim-snippets'                 " Snippets are separated from the engine. Add this if you want them
+Plugin 'Shougo/unite.vim'                   " search and display files, buffers, recently used files or registers
+Plugin 'junegunn/fzf'                       " general-purpose command-line fuzzy finder
+Plugin 'junegunn/fzf.vim'                   " Things you can do with fzf and Vim
 
 " Appearance
 Plugin 'vim-airline/vim-airline'            " This is for awesome outlook
 Plugin 'vim-airline/vim-airline-themes'     " This is for awesome outlook
 Plugin 'luochen1990/rainbow'                " This is for better bracket looks
 Plugin 'tpope/vim-fugitive'                 " For airline git branch
+Plugin 'edkolev/promptline.vim'             " Simple shell prompt generator
+Plugin 'edkolev/tmuxline.vim'               " tmux statusline generator
 
 " Build, Compile, Run
 Plugin 'xuhdev/SingleCompile'               " For compile and run in vim
@@ -46,6 +51,8 @@ Plugin 'Blackrush/vim-gocode'               " For go auto complete
 " Git
 Plugin 'airblade/vim-gitgutter'             " For git used
 Plugin 'mhinz/vim-signify'                  " For git used
+" DBMS
+Plugin 'chrisbra/csv.vim'                   "csv files and use the ',' as delimiter
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required

@@ -26,6 +26,7 @@ nnoremap <Leader>w :w<CR>
 let SC = 0
 nnoremap <F5> :w<CR> :SCCompileRun<CR>
 nnoremap <F6> :SCViewResult<CR>
+nnoremap <silent>[menu]g :Unite -silent -start-insert menu:git<CR>
 
 " Insert mode
 
