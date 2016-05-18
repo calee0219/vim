@@ -25,6 +25,7 @@ set wrap
 "  Color
 " Set syntax color
 syntax on
+set t_Co=256
 " 擴充語法上色
 "colorscheme kolor
 colorscheme monokai
@@ -68,8 +69,8 @@ autocmd VimEnter * if argc() == 0 && !exists("s:std_in") | NERDTree | endif
 " close vim if the only window left open is a NERDTree
 autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTree") && b:NERDTree.isTabTree()) | q | endif
 " change NERDTree default arrows
-"let g:NERDTreeDirArrowExpandable = '▸'
-"let g:NERDTreeDirArrowCollapsible = '▾'
+let g:NERDTreeDirArrowExpandable = '▸'
+let g:NERDTreeDirArrowCollapsible = '▾'
 " 設定 NERDTree 視窗大小
 let g:NERDTreeWinSize = 25
 " set NERDTree bar on the right
@@ -78,15 +79,6 @@ let g:NERDTreeWinSize = 25
 let NERDTreeShowBookmarks=1
 
 " vim-airline
-" display it
-"python from powerline.vim import setup as powerline_setup
-"python powerline_setup()
-"python del powerline_setup
-" set status line
-set laststatus=2
-set t_Co=256
-" enable powerline-fonts
-let g:airline_powerline_fonts = 1
 " enable tabline
 let g:airline#extensions#tabline#enabled = 1
 " set left separator
@@ -95,12 +87,25 @@ let g:airline#extensions#tabline#left_sep = ' '
 let g:airline#extensions#tabline#left_alt_sep = '|'
 " show buffer number
 let g:airline#extensions#tabline#buffer_nr_show = 1
+" set section
+"let g:airline_section_a=''
+"let g:airline_section_b=''
+" set pwd
+"let g:airline_section_c = '%{getcwd()}'
+"let g:airline_section_gutter=''
+"let g:airline_section_x=''
+" set time
+let g:airline_section_y = '%{strftime("%Y/%m/%d %H:%M")}'
+"let g:airline_section_z=''
+"let g:airline_section_warning=''
+"let g:airline_section_error=''
+" set status line
+set laststatus=2
+" enable powerline-fonts
 let g:airline_powerline_fonts = 1
-let g:airline_theme="luna"
 let g:airline_theme='powerlineish'
-let g:airline_left_sep=''
+"let g:airline_left_sep=''
 let g:airline_right_sep=''
-let g:airline_section_z=''
 
 " syntastic
 set statusline+=%#warningmsg#

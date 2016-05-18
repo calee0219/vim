@@ -33,16 +33,19 @@ Plugin 'honza/vim-snippets'                " Snippets are separated from the eng
 Plugin 'vim-airline/vim-airline'            " This is for awesome outlook
 Plugin 'vim-airline/vim-airline-themes'     " This is for awesome outlook
 Plugin 'luochen1990/rainbow'                " This is for better bracket looks
+Plugin 'tpope/vim-fugitive'                 " For airline git branch
 
 " Build, Compile, Run
 Plugin 'xuhdev/SingleCompile'               " For compile and run in vim
 " C++ language
 Plugin 'scrooloose/syntastic'               " This is for syntax checking
 Plugin 'octol/vim-cpp-enhanced-highlight'   " This is for better c++ style syntax highlight
-
 " Go language
 Plugin 'fatih/vim-go'                       " For go auto complete
 Plugin 'Blackrush/vim-gocode'               " For go auto complete
+" Git
+Plugin 'airblade/vim-gitgutter'             " For git used
+Plugin 'mhinz/vim-signify'                  " For git used
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
