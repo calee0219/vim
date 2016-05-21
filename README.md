@@ -9,6 +9,8 @@ After a few week later, I suppose to modify my own vimrc setting because the las
 
 I uniformly used [Vundle](https://github.com/VundleVim/Vundle.vim) to contral my vim plugin.
 
+In the 3'rd edition, I try to used [Neobundle](https://github.com/Shougo/neobundle.vim) to contral vim plugin. That's because I found an amazing [site](http://vim-bootstrap.com/) that can create vim script for you! And it's using Neobundle to contral plugin. So I just used it!
+
 ## How to install
 #### Auto Install
 * Use curl (for Mac OS X):
@@ -29,7 +31,6 @@ cd ~/.vim
 
 * Then, type:
 ```shell
-chmod 755 ~/.vim/install_vimrc.sh
 ~/.vim/install_vimrc.sh
 ```
 That's it!
