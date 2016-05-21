@@ -1,5 +1,4 @@
 # ignore bundle and use vundle as contralling module
 bundle/*
-fonts
 repos
 sessions
