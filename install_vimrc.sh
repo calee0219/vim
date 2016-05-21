@@ -33,4 +33,3 @@ ln -fs $path/ycm_extra_conf.py ~/.ycm_extra_conf.py
 # install airline font
 cd $path/fonts
 ./install.sh
-ln -fs $path/fonts ~/.fonts/powerline-fonts
