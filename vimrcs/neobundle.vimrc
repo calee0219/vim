@@ -49,6 +49,8 @@ NeoBundle 'vim-airline/vim-airline-themes'  " Apperence
 NeoBundle 'luochen1990/rainbow'             " better bracket looks
 NeoBundle 'airblade/vim-gitgutter'          " Git useful tool
 NeoBundle 'mhinz/vim-signify'               " Git useful tool
+NeoBundle 'godlygeek/tabular'				" Auto arrange code
+NeoBundle 'tpope/vim-endwise'				" Auto pair do end or so on
 NeoBundle 'sheerun/vim-polyglot'
 NeoBundle 'vim-scripts/grep.vim'
 NeoBundle 'vim-scripts/CSApprox'
@@ -126,6 +128,7 @@ NeoBundle 'hail2u/vim-css3-syntax'
 NeoBundle 'gorodinskiy/vim-coloresque'
 NeoBundle 'tpope/vim-haml'
 NeoBundle 'mattn/emmet-vim'
+NeoBundle 'tpope/vim-surround'
 
 "" OCaml Bundle
 NeoBundle "def-lkb/ocp-indent-vim"
