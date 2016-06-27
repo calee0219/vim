@@ -325,9 +325,9 @@ nnoremap <silent>[menu]g :Unite -silent -start-insert menu:git<CR>
 " Others
 "" <F4> open/close line number
 nnoremap <F7> :set nonumber!<CR>
-"" for auto clean the formate
-nnoremap <F3> ggVG=
 
 " Command
 cabbr fs w !sudo tee %
 cabbr pt set paste
+cabbr rmms %s/\r//g
+cabbr atft ggVG=
