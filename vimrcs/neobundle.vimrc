@@ -46,7 +46,7 @@ NeoBundle 'junegunn/fzf'                    " fuzzy finder
 NeoBundle 'junegunn/fzf.vim'                " fzf and Vim
 NeoBundle 'vim-airline/vim-airline'         " Apperence
 NeoBundle 'vim-airline/vim-airline-themes'  " Apperence
-NeoBundle 'luochen1990/rainbow'             " better bracket looks
+"NeoBundle 'luochen1990/rainbow'             " better bracket looks
 NeoBundle 'airblade/vim-gitgutter'          " Git useful tool
 NeoBundle 'mhinz/vim-signify'               " Git useful tool
 NeoBundle 'godlygeek/tabular'				" Auto arrange code
