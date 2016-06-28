@@ -3,7 +3,7 @@
 path=$(pwd)
 # checking Linux OS
 if which apt-get >/dev/null 2>&1; then
-    app='sudo apt-get install -f'
+    app='sudo apt-get install --best --allowerasing -f'
     yes | $app build-essential cmake
     yes | $app python-dev python3-dev
     yes | $app powerline
@@ -17,6 +17,7 @@ elif which dnf >/dev/null 2>&1; then
     yes | $app powerline
     yes | $app ctags
 	yes | $app nodejs npm go
+	yes | sudo pip install --user powerline-status
 fi
 
 curl -o https://raw.githubusercontent.com/Shougo/neobundle.vim/master/bin/install.sh | sh

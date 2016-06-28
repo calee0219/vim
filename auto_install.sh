@@ -3,7 +3,7 @@
 if which apt-get > /dev/null; then
     sudo apt-get install -y vim gcc ctags git python python-pip
 elif which dnf > /dev/null; then
-    sudo dnf install -y vim gcc ctags git python python-pip
+    sudo dnf install --best --allowerasing -y vim gcc ctags git python python-pip
 elif which pacman > /dev/null; then
     sudo pacman -S vim gcc ctags git python python-pip
 fi

@@ -46,6 +46,7 @@ NeoBundle 'junegunn/fzf'                    " fuzzy finder
 NeoBundle 'junegunn/fzf.vim'                " fzf and Vim
 NeoBundle 'vim-airline/vim-airline'         " Apperence
 NeoBundle 'vim-airline/vim-airline-themes'  " Apperence
+NeoBundle 'Lokaltog/vim-powerline'			" Powerline for airline
 "NeoBundle 'luochen1990/rainbow'             " better bracket looks
 NeoBundle 'airblade/vim-gitgutter'          " Git useful tool
 NeoBundle 'mhinz/vim-signify'               " Git useful tool
@@ -107,8 +108,8 @@ NeoBundle 'vim-perl/vim-perl'
 NeoBundle 'c9s/perlomni.vim'
 
 "" C++ Bundle
-NeoBundle 'vim-scripts/c.vim'
-"NeoBundle 'octol/vim-cpp-enhanced-highlight'
+"NeoBundle 'vim-scripts/c.vim'
+NeoBundle 'octol/vim-cpp-enhanced-highlight'
 
 NeoBundle "jimenezrick/vimerl"
 
