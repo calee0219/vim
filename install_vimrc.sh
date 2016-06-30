@@ -16,8 +16,11 @@ elif which dnf >/dev/null 2>&1; then
     yes | $app python-devel python3-devel
     yes | $app powerline
     yes | $app ctags
-	yes | $app nodejs npm go
-	yes | sudo pip install --user powerline-status
+	yes | $app go
+	yes | $app nodejs npm
+	sudo npm install npm -g
+	yes | pip install --upgrade pip
+	yes | pip install --user powerline-status
 fi
 
 curl -o https://raw.githubusercontent.com/Shougo/neobundle.vim/master/bin/install.sh | sh
@@ -28,7 +31,7 @@ git submodule update
 vim +NeoBundleInstall +qall
 cd $path/bundle/YouCompleteMe
 git submodule update --init --recursive
-./install.py --gocode-completer --tern-completer --clang-completer --all
+./install.py --gocode-completer --clang-completer
 ln -fs $path/ycm_extra_conf.py ~/.ycm_extra_conf.py
 
 # install airline font
